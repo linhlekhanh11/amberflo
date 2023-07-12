@@ -3,6 +3,9 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+Please clone this repo to run this website on local, in the terminal, you can run:
+
+### `git clone https://github.com/linhlekhanh11/amberflo.git`
 
 In the project directory, you can run:
 
