@@ -46,3 +46,6 @@ https://main--meters-amberflo.netlify.app/
 
 ### Responsive Landing Page
 - If I have more time, I would add more styling and responsive for landing page (meter table), so it would be compatible with different devices
+
+## Search Function
+- I think it would be nice if we can add search function for table, so users can easily access for what data they want to access. 
