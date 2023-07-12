@@ -28,3 +28,5 @@ You may also see any lint errors in the console.
 - It would be nice if I can impletement the confirm modal for user to confirm deleting a meter. It could improve user experience and avoid mistake from user behavior. 
 ### Edit Function: 
 - It would be nice if an edit button is default disabled until users actually make any changes, so it will have a better user experience. 
+### Adding back button:
+- It would be nice if we can add a back button so user can easily do navigate to the previous page. 
