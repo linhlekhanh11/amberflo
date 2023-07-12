@@ -43,3 +43,6 @@ https://main--meters-amberflo.netlify.app/
 
 ### Adding test for each component:
 - If I have more time, writing test file for components is necessary to prevent errors and improve efficiency. 
+
+### Responsive Landing Page
+- If I have more time, I would add more styling and responsive for landing page (meter table), so it would be compatible with different devices
