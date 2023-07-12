@@ -1,0 +1,61 @@
+.FieldDetail {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.DetailPageContainer {
+    padding: 50px 50px;
+}
+
+.EditButton {
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+  color: #fff;
+  background-color:#3f3140;
+  border: none;
+  border-radius: 5px;
+  margin-right: 2%;
+  display: flex; 
+}
+
+.DeleteButton {
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #f11818;
+  border: none;
+  border-radius: 5px;
+  display: flex; 
+}
+
+.EditButton:disabled,
+.DeleteButton:disabled,
+.DeleteButton[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+.ButtonContainer {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-inline: 10%;
+    margin-top: 5%;
+    column-count: 2;
+    
+}

@@ -1,0 +1,58 @@
+.SubmitButton {
+  display: inline-block;
+  padding: 7px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(231, 131, 31);
+  border: none;
+  border-radius: 5px;
+  margin-right: 2%;
+  display: flex; 
+}
+
+.CloseModalButton {
+  display: inline-block;
+  padding: 7px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #3f3140;
+  border: none;
+  border-radius: 5px;
+  display: flex; 
+}
+
+.MeterContainer {
+  margin-top: 5%;
+  column-width: 250px;
+  column-gap: 20px;
+}
+
+.FormContainer {
+  margin-top: 5%;
+}
+
+.FieldInput {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.MeterButtonContainer {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-inline: 10%;
+    margin-bottom: 5%;
+}

@@ -1,0 +1,79 @@
+.App {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+table {
+    border: 2px solid rgb(216, 128, 41);
+    width: 1200px;
+    height: 200px;
+}
+ 
+th {
+    border-bottom: 1px solid black;
+}
+
+th.up {
+  background-image: url("./images/up_arrow.png"); 
+}
+th.down {
+  background-image: url("./images/down_arrow.png");
+}
+th.default {
+  background-image: url("./images/default.png");
+}
+th.up,
+th.default,
+th.down {
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+tbody tr:first-child td {
+  border-top: none;
+}
+
+
+td {
+    text-align: center;
+}
+
+.content {   
+  column-gap: 50%;
+  margin: 0 3%;
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.clickable-row:hover {
+  background-color: rgb(216, 128, 41);
+  cursor: pointer;
+}
+
+.AddMeterButton { 
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: rgb(244, 162, 80);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #d0cdcd;
+  display: flex;
+}
+.AddMeterButton:active {
+background-color: rgb(231, 131, 31);
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
+
