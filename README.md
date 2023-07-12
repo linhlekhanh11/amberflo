@@ -17,6 +17,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+## DEMO APP
+You can also see the demo app on this link: 
+https://main--meters-amberflo.netlify.app/
+
 ## HOW TO USE THIS APP
 
 - I implemented this app as a table, the data in table could be sorted in columns by clicking in header.
